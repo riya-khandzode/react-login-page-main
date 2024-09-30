@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig",
+  "exclude": ["build"],
+  "include": ["src/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "noEmit": false
+    // "paths": {
+    //   "react-login-page/*": ["./node_modules/react-login-page/*"]
+    // }
+  }
+}
